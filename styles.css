@@ -5,8 +5,12 @@ body {
     background-color: #6D5D4F;
 }
 
-header {
+header,
+nav {
     background-color: #6D5D4F;
+}
+
+header {
     padding: 20px;
     color: #F9F9F9;
 }
@@ -67,16 +71,39 @@ main {
 
 main h1,
 main h2,
-main h3 {
-    color: #6D5D4F;
-}
-
+main h3,
 main p {
     color: #6D5D4F;
 }
 
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: top;
+    padding: 0;
+}
+
+.box-container-item,
+.box-container-itemChoices {
+    flex-basis: calc(33.33% - 1.6rem);
+    min-height: 250px;
+    object-fit: cover;
+    margin: 0.8rem;
+    height: 100%;
+}
+
+.box-container-item {
+    max-width: 350px;
+    width: 100%;
+}
+
+.box-container-itemChoices {
+    width: 33%;
+}
+
 footer {
-    background-color: #D8C0A3;
+    background-color: #6D5D4F;
     color: #F9F9F9;
     padding: 20px 0 0 200px;
     min-height: 160px;
@@ -98,11 +125,17 @@ table {
     border-collapse: collapse;
 }
 
+th,
+td {
+    border: 1px solid black;
+}
+
 th {
     background-color: #e4e4e4;
 }
 
-th,
-td {
-    border: 1px solid black;
+li {
+    min-height: 100px;
+    height: 100%;
+    color: #6D5D4F;
 }
