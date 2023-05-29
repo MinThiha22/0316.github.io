@@ -4,6 +4,21 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #6D5D4F;
 }
+#logo{
+    width: 200px;
+    height: 170px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+h1{
+    position: relative;
+    left: 210px;
+    text-align: left;
+    margin-bottom: 5px;
+}
 
 header,
 nav {
