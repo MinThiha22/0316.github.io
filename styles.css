@@ -182,3 +182,8 @@ div li {
 #intro {
     text-align: center;
 }
+
+#introPic {
+    width: 1375px;
+    height: 875px;
+}
