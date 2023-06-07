@@ -178,3 +178,7 @@ div li {
 .box-container-itemChoices li {
     margin-bottom: 10px;
 }
+
+#intro {
+    text-align: center;
+}
