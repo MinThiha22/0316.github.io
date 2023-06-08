@@ -168,12 +168,18 @@ div li {
     height: 100%;
     color: #6D5D4F;
 }
-
+#head_ref{
+    text-align: center;
+}
 .ref {
-    font-size: 12px;
+    font-size: 19px;
     margin-bottom: 1em;
     color: #6D5D4F;
-    list-style-type: none;
+    list-style-type: disc;
+}
+
+.ref li{
+    padding-bottom: 10px;
 }
 
 .box-container-itemChoices li {
