@@ -106,6 +106,7 @@ main h2 {
     justify-content: space-evenly;
     align-items: space-evenly;
     padding: 0;
+
 }
 
 .box-container-item,
@@ -222,4 +223,12 @@ div li {
 
 #choices {
     text-align: center;
+}
+
+#ethics {
+    text-align: center;
+}
+
+#ethics_p {
+    font-size: 20px;
 }
