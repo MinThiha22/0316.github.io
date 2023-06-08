@@ -238,3 +238,7 @@ div li {
 #ethics_p {
     font-size: 20px;
 }
+
+.name {
+    white-space: nowrap;
+}
