@@ -9,4 +9,4 @@ Brian Cobcroft
 
 COMP501 Group0316 @ Auckland Technology University
 
-Live @ https://github.com/MinThiha22/0316.github.io
+Live @ https://minthiha22.github.io/0316.github.io/
